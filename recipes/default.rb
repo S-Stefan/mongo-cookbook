@@ -1,7 +1,7 @@
 #
 # Cookbook:: mongo
 # Recipe:: default
-#
+# .
 # Copyright:: 2019, The Authors, All Rights Reserved.
 include_recipe("apt")
 apt_update("update") do
