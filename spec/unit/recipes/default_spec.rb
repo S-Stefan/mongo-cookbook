@@ -40,7 +40,7 @@ describe 'mongo::default' do
     end
 
     it 'should create an mongod.conf template in etc/mongod.conf' do
-       expect(chef_run).to create_template("/etc/mongod.conf").with_variables(port: 27017, bindIp: "0.0.0.0")
+       expect(chef_run).to create_template("/etc/mongod.conf").with_variables(port: 27017, bindIp: '0.0.0.0')
     end
 
   end
