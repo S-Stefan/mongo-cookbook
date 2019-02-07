@@ -15,8 +15,8 @@ provisioner:
   #   always_update_cookbooks: <%= !ENV['CI'] %>
   always_update_cookbooks: true
 
-transport:
-  ssh_key: ~/.ssh/DevOpsStudents.pem
+# transport:
+#   ssh_key: ~/.ssh/DevOpsStudents.pem
 
 verifier:
   name: inspec
